@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 from config import BOT_TOKEN
